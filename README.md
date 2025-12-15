@@ -1,13 +1,17 @@
 # Vendor-Managed AI Agent CLIs
 
-*Dec 14, 2025*
-
-## Authorship
-
-- Readme and list poppulation: me
-- Benchmark doc: Claude Code
-
 This repository curates a list of command line interfaces for AI models that are maintained by the model vendors themselves.
+
+## Current Vendor CLIs
+
+[![Claude Code](https://img.shields.io/badge/Claude_Code-Anthropic-cc785c?style=for-the-badge&logo=anthropic)](https://docs.anthropic.com/en/docs/claude-code)
+[![Codex](https://img.shields.io/badge/Codex-OpenAI-412991?style=for-the-badge&logo=openai)](https://openai.com/index/introducing-codex/)
+[![Gemini CLI](https://img.shields.io/badge/Gemini_CLI-Google-4285F4?style=for-the-badge&logo=google)](https://github.com/google-gemini/gemini-cli)
+[![Qwen Code](https://img.shields.io/badge/Qwen_Code-Alibaba-FF6A00?style=for-the-badge&logo=alibabacloud)](https://qwenlm.github.io/)
+[![Mistral CLI](https://img.shields.io/badge/Mistral_CLI-Mistral_AI-FF7000?style=for-the-badge)](https://github.com/mistralai/mistral-cli)
+[![Amazon Q](https://img.shields.io/badge/Amazon_Q-AWS-232F3E?style=for-the-badge&logo=amazonaws)](https://aws.amazon.com/q/developer/)
+
+## About
 
 Vendor CLIs are often offered as standalone interfaces and sometimes integrated into IDEs—whether those maintained by the vendors or as official plugins for mainstream IDEs like VS Code.
 
@@ -17,12 +21,32 @@ The distinction between vendor-managed and third-party CLIs is made not to sugge
 
 Given that creating and releasing a commercial LLM with agentic tooling remains a substantial undertaking, the number of vendor-maintained CLIs is actually a fairly narrow pool.
 
-However, as with everything else in agentic AI, that list changes frequently as new tools come to market. Therefore, the lists are maintained in timestamped documents.
+## What's NOT Included
 
-## Contents
+This list specifically excludes:
+- Third-party CLI tools (Aider, Continue, Cursor, etc.)
+- IDE plugins that wrap vendor APIs
+- Community-maintained forks
+- Tools offering only API access without agentic capabilities
 
-- [141225.md](141225.md) - CLI listing as of December 14, 2025
+## Lists
+
+Historical snapshots of the vendor CLI landscape:
+
+| Date | List |
+|------|------|
+| December 14, 2025 | [141225.md](141225.md) |
+
+## Additional Resources
+
 - [benchmarks.md](benchmarks.md) - Overview of benchmarks used to evaluate agentic coding tools
+- [clog.md](clog.md) - Changelog and repository purpose
 
-Timestamp format for date tracking: DDMMYY
+## Authorship
 
+- Readme and list population: me
+- Benchmark doc: Claude Code
+
+---
+
+*Timestamp format: DDMMYY*

@@ -1,0 +1,3 @@
+This repository maintains a small and periodically maintained list of command line interface tools that are maintained and created by the same companies which develop the models. An example is Claude code which was developed by Anthropic and Codex which is maintained by Open AI. Out of scope for this repository are Clis that are not maintained by the companies themselves, even if they are excellent. 
+
+Part of this repository consists of prompts which you should answer in the AI answers folder. 
