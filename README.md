@@ -2,6 +2,11 @@
 
 *Dec 14, 2025*
 
+## Authorship
+
+- Readme and list poppulation: me
+- Benchmark doc: Claude Code
+
 This repository curates a list of command line interfaces for AI models that are maintained by the model vendors themselves.
 
 Vendor CLIs are often offered as standalone interfaces and sometimes integrated into IDEs—whether those maintained by the vendors or as official plugins for mainstream IDEs like VS Code.
