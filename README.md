@@ -21,6 +21,8 @@ The distinction between vendor-managed and third-party CLIs is made not to sugge
 
 Given that creating and releasing a commercial LLM with agentic tooling remains a substantial undertaking, the number of vendor-maintained CLIs is actually a fairly narrow pool.
 
+Finally - these lists are almost certainly non-exhaustive. If you are a vendor and maintain a CLI that is "agentic" (supprots tool-use and MCP), please feel free to open a PR or drop me a line and I would be happy to update the repo. 
+
 ## What's NOT Included
 
 This list specifically excludes:
