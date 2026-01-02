@@ -1,15 +1,28 @@
 # Vendor-Managed AI Agent CLIs
 
+[![Documentation](https://img.shields.io/badge/Documentation-View_List-blue?style=for-the-badge)](141225.md)
+
 This repository curates a list of command line interfaces for AI models that are maintained by the model vendors themselves.
+
+>
+> This is not an exhaustive list. It is updated periodically, as the landscape is changing very quickly and constantly.
+>
+> This list only includes first-party tools that are maintained by the vendors themselves. There are many unofficial tools often coexisting with vendor tools, but this list specifically tracks the ones that the vendors maintain.
+>
+> If something is missing, feel free to send in corrections for inclusion.
 
 ## Current Vendor CLIs
 
-[![Claude Code](https://img.shields.io/badge/Claude_Code-Anthropic-cc785c?style=for-the-badge&logo=anthropic)](https://docs.anthropic.com/en/docs/claude-code)
-[![Codex](https://img.shields.io/badge/Codex-OpenAI-412991?style=for-the-badge&logo=openai)](https://openai.com/index/introducing-codex/)
-[![Gemini CLI](https://img.shields.io/badge/Gemini_CLI-Google-4285F4?style=for-the-badge&logo=google)](https://github.com/google-gemini/gemini-cli)
-[![Qwen Code](https://img.shields.io/badge/Qwen_Code-Alibaba-FF6A00?style=for-the-badge&logo=alibabacloud)](https://qwenlm.github.io/)
-[![Mistral CLI](https://img.shields.io/badge/Mistral_CLI-Mistral_AI-FF7000?style=for-the-badge)](https://github.com/mistralai/mistral-cli)
-[![Amazon Q](https://img.shields.io/badge/Amazon_Q-AWS-232F3E?style=for-the-badge&logo=amazonaws)](https://aws.amazon.com/q/developer/)
+| CLI Name | Vendor | Link |
+|----------|--------|------|
+| Amazon Q | AWS | [Website](https://aws.amazon.com/q/developer/) |
+| Claude Code | Anthropic | [Docs](https://docs.anthropic.com/en/docs/claude-code) |
+| Codex | OpenAI | [Website](https://openai.com/index/introducing-codex/) |
+| Gemini CLI | Google | [GitHub](https://github.com/google-gemini/gemini-cli) |
+| Groq Code CLI | Groq | [GitHub](https://github.com/build-with-groq/groq-code-cli) |
+| Kimi CLI | Moonshot AI | [GitHub](https://github.com/MoonshotAI/kimi-cli) |
+| Mistral CLI | Mistral AI | [GitHub](https://github.com/mistralai/mistral-cli) |
+| Qwen Code | Alibaba | [Website](https://qwenlm.github.io/) |
 
 ## About
 
@@ -23,7 +36,7 @@ Given that creating and releasing a commercial LLM with agentic tooling remains 
 
 Finally - these lists are almost certainly non-exhaustive. If you are a vendor and maintain a CLI that is "agentic" (supprots tool-use and MCP), please feel free to open a PR or drop me a line and I would be happy to update the repo. 
 
-## What's NOT Included
+## Out Of Scope
 
 This list specifically excludes:
 - Third-party CLI tools (Aider, Continue, Cursor, etc.)
@@ -48,7 +61,4 @@ Historical snapshots of the vendor CLI landscape:
 
 - Readme and list population: me
 - Benchmark doc: Claude Code
-
----
-
-*Timestamp format: DDMMYY*
+ 
